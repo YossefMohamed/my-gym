@@ -1,0 +1,359 @@
+* {
+  -webkit-transition: all 300ms  ease;
+  transition: all 300ms  ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+.nav {
+  font-weight: bold;
+  z-index: 5;
+  width: 100%;
+  position: absolute;
+  padding: 25px 50px;
+  display: -ms-grid;
+  display: grid;
+  color: #fff;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+}
+
+.nav .inf ul {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (15%)[4];
+      grid-template-columns: repeat(4, 15%);
+}
+
+.nav .fad ul {
+  display: -ms-grid;
+  display: grid;
+  list-style-type: none;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.item {
+  font-family: Oswald, sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+  width: 100% !important;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.it1 {
+  background-size: cover;
+  background-image: url(../img/hero-slider/hero-1.jpg) !important;
+}
+
+.it2 {
+  background-size: cover;
+  background-position-x: center;
+  background-position: center;
+  background-image: url(../img/hero-slider/hero-2.jpg) !important;
+}
+
+.it3 {
+  background-size: cover;
+  background-position-x: center;
+  background-position: center;
+  background-image: url(../img/hero-slider/hero-3.jpg) !important;
+}
+
+.owl-prev, .owl-next, .owl-dots {
+  display: none !important;
+}
+
+.owl-carousel .item {
+  margin: 0 !important;
+}
+
+.ith {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  left: 050%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ith h2 {
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+.ith h1 {
+  margin: 20px;
+  font-size: 5em;
+  font-family: Oswald, sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 108px;
+}
+
+.ith button {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  border: 2px #e4381C solid;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.sec-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.sec-header .types {
+  position: relative;
+  background-size: cover;
+  height: 45vh;
+}
+
+.sec-header .types:hover {
+  border-bottom: 2px solid #e4381C !important;
+}
+
+.sec-header .ty1 {
+  background-image: url(../img/feature/feature-1.jpg);
+}
+
+.sec-header .ty2 {
+  background-image: url(../img/feature/feature-2.jpg);
+}
+
+.sec-header .ty3 {
+  background-image: url(../img/feature/feature-3.jpg);
+}
+
+.sec-header .clstext {
+  font-size: 0.8em;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.sec-header .clstext h6 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 15px;
+}
+
+.sec-header .clstext button {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  border: 2px #e4381C solid;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.sec-header .clstext button:hover {
+  background: #e4381C;
+}
+
+.third {
+  padding: 80px 0;
+  background-color: #151515;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.third .cont {
+  margin: auto;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.third .greetext {
+  margin-right: 10px;
+  padding-top: 50px;
+}
+
+.third .greetext h2 {
+  margin-bottom: 1.1em;
+}
+
+.third .greetext p {
+  margin-bottom: 1.2em;
+  font-weight: lighter;
+}
+
+.third .greetext BUTTON {
+  border: 0;
+  outline: 0;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(100%, #e4381C), to(#e16521));
+  background-image: linear-gradient(to right, #e4381C 100%, #e16521 100%);
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 0.8em;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.smhead {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  padding: 5vh 0 4vh;
+  background-image: url(../img/classes-title-bg.jpg);
+}
+
+.othcls {
+  height: 48vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.othcls BUTTON {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  border: 2px #e4381C solid;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.othcls .oth1 {
+  position: relative;
+  background-image: url(../img/classes/class-1.jpg);
+}
+
+.othcls .oth2 {
+  position: relative;
+  background-image: url(../img/classes/class-2.jpg);
+}
+
+.othcls .oth3 {
+  position: relative;
+  background-image: url(../img/classes/class-3.jpg);
+}
+
+.othcls .oth4 {
+  position: relative;
+  background-image: url(../img/classes/class-4.jpg);
+}
+
+.othcls .clstext {
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-80%, -20%);
+          transform: translate(-80%, -20%);
+}
+
+.othcls .clstext h5 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.othcls .clstext h6 {
+  font-weight: lighter;
+  font-size: 0.8em;
+  margin-bottom: 15px;
+}
+
+.oth1:hover {
+  border-bottom: 4px solid #e4381C;
+}
+
+.oth2:hover {
+  border-bottom: 4px solid #e4381C;
+}
+
+.oth3:hover {
+  border-bottom: 4px solid #e4381C;
+}
+
+.oth4:hover {
+  border-bottom: 4px solid #e4381C;
+}
+
+button:hover {
+  background-color: #e4381C;
+}
+
+.table {
+  background-color: black;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.table .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+.table .links div {
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 20px 20px;
+}
+
+.table table {
+  background: #151515;
+  margin: 20px auto;
+  border: none;
+}
+
+.table table td, .table table th {
+  font-size: 0.85em;
+  padding: 20px 25px;
+  border: none;
+}
+
+.table table td {
+  border: 1px solid black;
+}
+
+.table table span {
+  color: #e4381C;
+}
+
+* {
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */
